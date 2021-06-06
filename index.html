@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>Your Birthday</h1>
+    </nav>
+    <section class="about">
+      <h2>About</h2>
+      <div class="container">
+        <p>
+          Enter your Date of birth in the format as mentioned and we will tell
+          you whether you were born in a leap year and is your birth day a prime
+          number.
+        </p>
+      </div>
+    </section>
 
+    <section>
+      <div class="container">
+        <textarea
+          class="section-input-area"
+          placeholder="DD/MM/YYYY"
+        ></textarea>
+      </div>
+    </section>
+    <section>
+      <button class="btn-submit">Submit</button>
+    </section>
+    <h2 class="result-text">👇 Your output will come here 👇</h2>
+    <section class="result-area">
+      <div class="section-result-area">
+        Leap year
+        <div id="leap-year" class="result"></div>
+      </div>
+      <div class="section-result-area">
+        Prime birth day
+        <div id="prime" class="result"></div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

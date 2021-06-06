@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: whitesmoke;
+}
+:root {
+  --primary-color: #4c1d95;
+  --red-color-shade: #dc2626;
+  --black-color: #1f2937;
+}
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.nav h1 {
+  font-size: 2rem;
+}
+
+section {
+  text-align: center;
+  margin: 0.5rem;
+}
+.container {
+  padding: 1rem;
+  margin: auto;
+  max-width: 600px;
+  text-align: justify;
+}
+textarea {
+    text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
+.btn-submit {
+  margin: auto;
+  font-size: 1.5rem;
+}
+.result-area {
+  display: flex;
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.result-text {
+  padding: 1rem;
+  text-align: center;
+}
+.section-result-area {
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+.result {
+  background-color: white;
+  border: 1px solid black;
+  height: auto;
+  padding: 1rem;;
+}
+
+/* .list-unordered {
+  list-style: none;
+}
+.list-inline {
+  display: inline;
+}
+footer {
+  background-color: yellow;
+  color: black;
+  padding: 2rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+footer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+} */
