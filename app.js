@@ -13,7 +13,7 @@ function primeDate(birthDate) {
   if (flag) {
     primeResult.innerText = "Your Birthday is a prime number";
   } else {
-      primeResult.innerText="Your Birthday is not a prime number"
+    primeResult.innerText = "Your Birthday is not a prime number";
   }
 }
 
