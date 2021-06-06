@@ -24,7 +24,7 @@ function leapYear(year){
         leapYearResult.innerText="Enter birthday in the given format"
     }
     else{
-        if(((year % 4 == 0) && (year % 100!= 0)) || (year%400 == 0)){
+        if(((year % 4 === 0) && (year % 100!== 0)) || (year%400 === 0)){
             leapYearResult.innerText-"You were born on a leap year";
         }
         else{
