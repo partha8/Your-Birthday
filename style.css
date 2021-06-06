@@ -34,8 +34,8 @@ section {
   max-width: 600px;
   text-align: justify;
 }
-textarea {
-    text-align: center;
+input {
+  text-align: center;
   width: 100%;
   font-size: 1.4rem;
   padding: 0.5rem;
@@ -65,7 +65,7 @@ textarea {
   background-color: white;
   border: 1px solid black;
   height: auto;
-  padding: 1rem;;
+  padding: 1rem;
 }
 
 /* .list-unordered {
